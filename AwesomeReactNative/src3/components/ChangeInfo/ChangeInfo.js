@@ -1,10 +1,10 @@
 import React, {Component} from 'react';
-import {Text, View} from 'react-native';
+import {Text, View, StyleSheet} from 'react-native';
 
 export class ChangeInfo extends Component {
   render() {
     return (
-      <View>
+      <View style={{backgroundColor: '#7CFC00'}}>
         <Text> ChangeInfo </Text>
       </View>
     );
