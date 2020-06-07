@@ -9,14 +9,18 @@ import {Provider} from 'react-redux';
   // import Main from './src/Controller/Main';
 
 //import store (rút gọn)
-import store from './src2/Redux/store';
-import Main from './src2/Controller/Main';
+// import store from './src2/Redux/store';
+// import Main from './src2/Controller/Main';
+
+//import App bán hàng
+import AppMain from './src3/components/AppMain';
 export default class App extends Component {
   render() {
     return (
-      <Provider store={store}>
-        <Main />
-      </Provider>
+      // <Provider store={store}>
+      //   <Main />
+      // </Provider>
+      <AppMain />
     );
   }
 }
